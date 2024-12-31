@@ -1,0 +1,1 @@
+select * from family_members where birthday like '2024-12%';
