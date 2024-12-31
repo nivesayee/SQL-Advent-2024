@@ -1,0 +1,1 @@
+select *,weight - lag(weight) over(order by log_id) from grinch_weight_log;
